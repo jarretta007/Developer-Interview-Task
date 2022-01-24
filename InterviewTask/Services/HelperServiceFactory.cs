@@ -27,7 +27,8 @@ namespace InterviewTask.Services
                 FridayOpeningHours = weekdayOpeningTimes,
                 SaturdayOpeningHours = closedTimes,
                 SundayOpeningHours = closedTimes,
-                TelephoneNumber = "0207 0000000"
+                TelephoneNumber = "0207 0000000",
+                City = "Ilford"
             };
 
             var northLondonHelper = new HelperServiceModel
@@ -42,7 +43,8 @@ namespace InterviewTask.Services
                 FridayOpeningHours = closedTimes,
                 SaturdayOpeningHours = closedTimes,
                 SundayOpeningHours = closedTimes,
-                TelephoneNumber = "0207 0000000"
+                TelephoneNumber = "0207 0000000",
+                City = "Watford"
             };
 
             var bristolHelper = new HelperServiceModel
@@ -57,7 +59,8 @@ namespace InterviewTask.Services
                 FridayOpeningHours = weekdayOpeningTimes,
                 SaturdayOpeningHours = closedTimes,
                 SundayOpeningHours = closedTimes,
-                TelephoneNumber = "0117 0000000"
+                TelephoneNumber = "0117 0000000",
+                City = "Bristol"
             };
 
             var somersetHelper = new HelperServiceModel
@@ -72,7 +75,8 @@ namespace InterviewTask.Services
                 FridayOpeningHours = weekdayOpeningTimes,
                 SaturdayOpeningHours = closedTimes,
                 SundayOpeningHours = closedTimes,
-                TelephoneNumber = "0207 0000000"
+                TelephoneNumber = "0207 0000000",
+                City = "Somerset"
             };
 
             var nottinghamHelper = new HelperServiceModel
@@ -87,7 +91,8 @@ namespace InterviewTask.Services
                 FridayOpeningHours = weekdayOpeningTimes,
                 SaturdayOpeningHours = weekdayOpeningTimes,
                 SundayOpeningHours = weekdayOpeningTimes,
-                TelephoneNumber = "0116 0000000"
+                TelephoneNumber = "0116 0000000",
+                City = "Nottingham"
             };
 
             var liverpoolHelper = new HelperServiceModel
@@ -102,7 +107,8 @@ namespace InterviewTask.Services
                 FridayOpeningHours = weekdayOpeningTimes,
                 SaturdayOpeningHours = weekendOpeningTimes,
                 SundayOpeningHours = weekendOpeningTimes,
-                TelephoneNumber = "0151 0000000"
+                TelephoneNumber = "0151 0000000",
+                City = "Liverpool"
             };
 
             var northernIrelandHelper = new HelperServiceModel
@@ -117,7 +123,8 @@ namespace InterviewTask.Services
                 FridayOpeningHours = weekdayOpeningTimes,
                 SaturdayOpeningHours = weekdayOpeningTimes,
                 SundayOpeningHours = weekendOpeningTimes,
-                TelephoneNumber = "0289 0000000"
+                TelephoneNumber = "0289 0000000",
+                City = "Belfast"
             };
 
             var westMidlandsHelper = new HelperServiceModel
@@ -132,7 +139,8 @@ namespace InterviewTask.Services
                 FridayOpeningHours = alternativeOpeningTime,
                 SaturdayOpeningHours = alternativeOpeningTime,
                 SundayOpeningHours = alternativeOpeningTime,
-                TelephoneNumber = "0289 0000000"
+                TelephoneNumber = "0289 0000000",
+                City = "Birmingham"
             };
 
             var walesHelper = new HelperServiceModel
@@ -147,7 +155,8 @@ namespace InterviewTask.Services
                 FridayOpeningHours = weekdayOpeningTimes,
                 SaturdayOpeningHours = weekdayOpeningTimes,
                 SundayOpeningHours = weekendOpeningTimes,
-                TelephoneNumber = "029 8800000"
+                TelephoneNumber = "029 8800000",
+                City = "Cardiff"
             };
 
             var fifeHelper = new HelperServiceModel
@@ -162,7 +171,8 @@ namespace InterviewTask.Services
                 FridayOpeningHours = weekdayOpeningTimes,
                 SaturdayOpeningHours = weekdayOpeningTimes,
                 SundayOpeningHours = weekendOpeningTimes,
-                TelephoneNumber = "0159 2000000"
+                TelephoneNumber = "0159 2000000",
+                City = "Fife"
             };
 
             var openingHours = new List<HelperServiceModel> { eastLondonHelper, northLondonHelper, bristolHelper, somersetHelper, nottinghamHelper, liverpoolHelper, northernIrelandHelper, westMidlandsHelper, walesHelper, fifeHelper };

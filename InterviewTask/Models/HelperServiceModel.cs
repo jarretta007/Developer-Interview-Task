@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace InterviewTask.Models
 {
@@ -17,6 +18,22 @@ namespace InterviewTask.Models
         public List<int> FridayOpeningHours { get; set; }
         public List<int> SaturdayOpeningHours { get; set; }
         public List<int> SundayOpeningHours { get; set; }
+
+        public string City { get; set; }
+        public string WeatherDescription { get; set; }
+        public string Temp { get; set; }
+        public string TempMin { get; set; }
+        public string TempMax { get; set; }
+
+        [NotMapped]
+        public int Opening { get; set; }
+        [NotMapped]
+        public int Closing { get; set; }
+        [NotMapped]
+        public string Status { get; set; }
+        [NotMapped]
+        public string background { get; set; }
+
     }
 }
 
